@@ -8,7 +8,7 @@ This repository holds the programs I wrote as part of Harvard University's [CS50
 </p>
 
 ### Languages covered
-* HTML, CSS
+* HTML, CSS (including Sass)
 * JavaScript
 * Python
 * SQL
@@ -36,11 +36,11 @@ This repository holds the programs I wrote as part of Harvard University's [CS50
 
 ### Projects
 
-| Number                                                    | Name(s)                                                                  | Language and Framework                                 |
-| :------------------------------------------------------------: | ------------------------------------------------------------------- | :-----------------------------------: |
-| [0](https://cs50.harvard.edu/web/2020/projects/0/search/)      | Search                                                              | HTML, CSS                             |
-| [1](https://cs50.harvard.edu/web/2020/projects/1/wiki/)        | Wiki                                                                | HTML, CSS, Python, Django             |
-| [2](https://cs50.harvard.edu/web/2020/projects/2/commerce/)    | Commerce                                                            | HTML, CSS, Python, Django             |
-| [3](https://cs50.harvard.edu/web/2020/projects/3/mail/)        | Mail                                                                | HTML, CSS, Python, Django, JavaScript |
-| [4](https://cs50.harvard.edu/web/2020/projects/4/network/)     | Network                                                             | HTML, CSS, Python, Django, JavaScript |
-| [5](https://cs50.harvard.edu/web/2020/projects/final/capstone/)| Capstone                                                            | HTML, CSS, Python, Django, JavaScript, React |
+| Number                                                         | Name(s)              | Languages and Frameworks Used                |
+| :------------------------------------------------------------: | ---------------------| :------------------------------------------: |
+| [0](https://cs50.harvard.edu/web/2020/projects/0/search/)      | Search               | HTML, CSS                                    |
+| [1](https://cs50.harvard.edu/web/2020/projects/1/wiki/)        | Wiki                 | HTML, CSS, Python, Django                    |
+| [2](https://cs50.harvard.edu/web/2020/projects/2/commerce/)    | Commerce             | HTML, CSS, Python, Django                    |
+| [3](https://cs50.harvard.edu/web/2020/projects/3/mail/)        | Mail                 | HTML, CSS, Python, Django, JavaScript        |
+| [4](https://cs50.harvard.edu/web/2020/projects/4/network/)     | Network              | HTML, CSS, Python, Django, JavaScript        |
+| [5](https://cs50.harvard.edu/web/2020/projects/final/capstone/)| Capstone             | HTML, CSS, Python, Django, JavaScript, React |
