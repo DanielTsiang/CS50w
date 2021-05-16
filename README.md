@@ -4,7 +4,7 @@
 This repository holds the programs I wrote as part of Harvard University's [CS50w](https://cs50.harvard.edu/web/2020/ "CS50w 2021") Web Programming course.
 
 <p align="center">
-  <img src="https://online-learning.harvard.edu/sites/default/files/styles/header/public/course/CS50x_web_4-modified.jpg?itok=8wo8PUle">
+  <img width="600" height="305" src="https://user-images.githubusercontent.com/74436899/118407768-1042a300-b67a-11eb-90a2-7dce474c8179.png">
 </p>
 
 ### Languages covered
