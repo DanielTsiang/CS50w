@@ -2,6 +2,10 @@
 
 Design a front-end for Google Search, Google Image Search, and Google Advanced Search.
 
+<p align="center">
+  <img width="500" height="239" src="https://user-images.githubusercontent.com/74436899/118407000-72010e00-b676-11eb-9b1b-b79cc11c2b94.png">
+</p>
+
 * **Pages**. Your website should have at least three pages: one for Google Search, one for Google Image Search, and one for Google Advanced Search.
 * **Query Text**. On the Google Search page, the user should be able to type in a query, click “Google Search”, and be taken to the Google search results for that page.
 * **Query Images**. On the Google Image Search page, the user should be able to type in a query, click a search button, and be taken to the Google Image search results for that page.
