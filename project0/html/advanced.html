@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="Front end for Google Search">
+        <meta name="author" content="Daniel Tsiang">
+
+        <!-- Site Name, Title, and Description to be displayed -->
+        <meta property="og:title" content="Google Advanced Search">
+        <meta property="og:description" content="Front end for Google Advanced Search">
+
+        <!-- Image to display -->
+        <meta property="og:image" content="https://cdn4.iconfinder.com/data/icons/new-google-logo-2015/400/new-google-favicon-256.png">
+
+        <link rel="icon" href="https://www.google.com/s2/favicons?domain=google.co.uk">
+        <title>Google Advanced Search</title>
+
+        <!-- Import Bootstrap 5 and custom stylesheets -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+        <link rel="stylesheet" href="/css/style.css">
+
+        <!-- Import Bootstrap 5 and Font Awesome JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/b4bf0585d5.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <div class="page-wrap">
+
+            <nav class="navbar navbar-mobile navbar-expand navbar-light">
+                <div class="container-fluid">
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link"></a>
+                            <a class="nav-link" href="index.html">ALL</a>
+                            <a class="nav-link" href="images.html">IMAGES</a>
+                            <a class="nav-link active">ADVANCED SEARCH</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <div id="logo-container-advanced" class="d-none d-sm-block">
+                <a href="index.html"><img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google Logo"></a>
+            </div>
+
+            <div id="advanced-title">
+                <p>Advanced Search</p>
+            </div>
+
+            <div class="div-border"></div>
+
+            <div id="advanced-container">
+                <form action="https://google.com/search">
+                    <div class="row mb-2">
+                		<div class="col-md-2 find-pages-div">
+                			<span>Find pages with...</span>
+                		</div>
+                		<div class="col-md-6"></div>
+                		<div class="col-md-4 d-none d-sm-block">
+                			<span class="to-do">To do this in the search box.</span>
+                		</div>
+                	</div>
+                	<div class="row align-items-center">
+                		<div class="col-md-2">
+                			<label for="all-words" class="advanced-text">all these words:</label>
+                		</div>
+                		<div class="col-md-6">
+                		    <input type="text" id="all-words" class="advanced-box" name="as_q" autocomplete="off" autofocus>
+                		</div>
+                		<div class="col-md-4 d-none d-sm-block">
+                			<div class="advanced-text-sm">
+                			    Type the important words: <span>tri-colour rat terrier</span>
+                		    </div>
+                		</div>
+                	</div>
+                	<div class="row align-items-center mt-3">
+                		<div class="col-md-2">
+                			<label for="exact-words" class="advanced-text">this exact word or phrase:</label>
+                		</div>
+                		<div class="col-md-6">
+                		    <input type="text" id="exact-words" class="advanced-box" name="as_epq" autocomplete="off">
+                		</div>
+                		<div class="col-md-4 d-none d-sm-block">
+                			<div class="advanced-text-sm">
+                			    Put exact words in quotes: <span>"rat terrier"</span>
+                		    </div>
+                		</div>
+                	</div>
+                	<div class="row align-items-center mt-3">
+                		<div class="col-md-2">
+                			<label for="any-words" class="advanced-text">any of these words:</label>
+                		</div>
+                		<div class="col-md-6">
+                		    <input type="text" id="any-words" class="advanced-box" name="as_oq" autocomplete="off">
+                		</div>
+                		<div class="col-md-4 d-none d-sm-block">
+                			<div class="advanced-text-sm">
+                			    Type <span>OR</span> between all the words you want: <span>miniature OR standard</span>
+                		    </div>
+                		</div>
+                	</div>
+                	<div class="row align-items-center mt-3">
+                		<div class="col-md-2">
+                			<label for="none-words" class="advanced-text">none of these words:</label>
+                		</div>
+                		<div class="col-md-6">
+                		    <input type="text" id="none-words" class="advanced-box" name="as_eq" autocomplete="off">
+                		</div>
+                		<div class="col-md-4 d-none d-sm-block">
+                			<div class="advanced-text-sm">
+                			    Put a minus sign just before words that you don't want: <span>-rodent, -"Jack Russell"</span>
+                		    </div>
+                		</div>
+                	</div>
+                	<div class="row">
+                		<div class="col-md-2"></div>
+                		<div class="col-md-6 btn-advanced-div">
+                		    <button type="submit" value="Advanced Search" class="btn-advanced">Advanced Search</button>
+                		</div>
+                		<div class="col-md-4 d-none d-sm-block"></div>
+                	</div>
+                </form>
+            </div>
+
+        </div>
+
+        <footer class="small site-footer d-flex align-items-center justify-content-center">
+			<p>
+				Front end created by <a href="https://danieltsiang.github.io/">Daniel Tsiang</a>
+			</p>
+		</footer>
+    </body>
+
+</html>
