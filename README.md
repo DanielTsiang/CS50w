@@ -1,4 +1,4 @@
-# CS50x Programs written by Daniel Tsiang
+# CS50w Programs written by Daniel Tsiang
 
 ### Description
 This repository holds the programs I wrote as part of Harvard University's [CS50w](https://cs50.harvard.edu/web/2020/ "CS50w 2021") Web Programming course.
